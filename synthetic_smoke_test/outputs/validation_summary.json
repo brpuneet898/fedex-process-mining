@@ -1,0 +1,21 @@
+{
+  "raw_rows": 1360,
+  "distinct_cases": 200,
+  "duplicate_event_id_rows": 20,
+  "missing_or_invalid_event_times": 20,
+  "unknown_codes": 20,
+  "censored_cases": 20,
+  "recovered_cases": 20,
+  "split_case_counts": {
+    "train": 120,
+    "validation": 40,
+    "test": 40
+  },
+  "prediction_prefix_cases": {
+    "P1": 160,
+    "P2": 180,
+    "P3": 160
+  },
+  "clean_rows": 1300,
+  "synthetic_only": true
+}

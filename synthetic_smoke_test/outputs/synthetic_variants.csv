@@ -1,0 +1,7 @@
+variant,cases
+origin_arrival > origin_sort > load > linehaul_departure > destination_arrival > destination_sort > onward_handoff,80
+origin_arrival > load > linehaul_departure > destination_arrival > destination_sort > onward_handoff,40
+origin_arrival > origin_sort > origin_sort > load > linehaul_departure > destination_arrival > destination_sort > onward_handoff,20
+origin_arrival > origin_sort > exception_recorded > recovery_recorded > load > linehaul_departure > destination_arrival > destination_sort > onward_handoff,20
+origin_arrival > origin_sort > load > terminal_failure,20
+origin_arrival > origin_sort > load > linehaul_departure,20
