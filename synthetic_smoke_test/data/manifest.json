@@ -1,0 +1,20 @@
+{
+  "synthetic_only": true,
+  "seed": 42,
+  "cases": 200,
+  "rows": 1360,
+  "event_sha256": "14a44f77636bf01bd79f6d7d6895eeaabd11e10f79f05815ebef561c303dd9d5",
+  "scenario_counts": {
+    "normal": 20,
+    "rework": 20,
+    "recovered_exception": 20,
+    "terminal_failure": 20,
+    "censored": 20,
+    "duplicate": 20,
+    "missing_timestamp": 20,
+    "late_ingestion": 20,
+    "revised_deadline": 20,
+    "unmapped_code": 20
+  },
+  "warning": "Fictional labels, timings, codes and locations; NOT FedEx operational information."
+}
